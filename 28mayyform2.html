@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body bgcolor="lightyellow">
+
+    <h2>PRIMARY DETAIL</h2>
+
+    <form>
+        <table cellpadding="5" cellspacing="10">
+            <tr>
+                <td>Child’s Name*:</td>
+                <td><input type="text" name="child_name"></td>
+
+                <td>Child’s Date of Birth*:</td>
+                <td><input type="text" name="dob" placeholder="DD/MM/YYYY"></td>
+                <td>Child’s Gender*:</td>
+                <td colspan="3">
+                    <select name="child_gender">
+                        <option>Select Gender</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Other</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+
+        <h2>PARTICIPATION INFORMATION</h2>
+
+        <table cellpadding="5" cellspacing="10">
+            <tr>
+                <td>Parent’s Name*:</td>
+                <td>
+                    <select name="prefix">
+                        <option>Mr</option>
+                        <option>Mrs</option>
+                        <option>Ms</option>
+                    </select>
+                    <input type="text" name="parent_name">
+                </td>
+
+                <td>Parent’s Mobile No*:</td>
+                <td><input type="text" name="parent_mobile"></td>
+                <td>Email ID*:</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td>House No./Building Name:</td>
+                <td><input type="text" name="house"></td>
+        
+                <td>Street:</td>
+                <td><input type="text" name="street"></td>
+
+                <td>Locality:</td>
+                <td><input type="text" name="locality"></td>
+            </tr>
+            <tr>
+                <td>State*:</td>
+                <td>
+                    <select name="state">
+                        <option>Select State</option>
+                        <option>State 1</option>
+                        <option>State 2</option>
+                    </select>
+                </td>
+
+                <td>City*:</td>
+                <td>
+                    <select name="city">
+                        <option>Select City</option>
+                        <option>City 1</option>
+                        <option>City 2</option>
+                    </select>
+                </td>
+        
+                <td>Pin Code*:</td>
+                <td><input type="text" name="pin_code"></td>
+                </tr>
+            <tr>
+                <td>Username*:</td>
+                <td><input type="text" name="username"></td>
+            
+                <td>Password*:</td>
+                <td><input type="password" name="password"></td>
+
+                <td>Confirm Password*:</td>
+                <td><input type="password" name="confirm_password"></td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <input type="checkbox" name="is_employee"> Are You Max Life Employee Or Agent Advisor?
+                </td>
+            </tr>
+            <tr>
+                <td>Where Did You Hear about us*:</td>
+                <td colspan="100">
+                    <select name="referral">
+                        <option>Select</option>
+                        <option>Social Media</option>
+                        <option>Friend</option>
+                        <option>Website</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <input type="checkbox" name="agree"> I agree to the Terms & Conditions
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4" align="left">
+                    <input type="submit" value="REGISTER NOW">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
