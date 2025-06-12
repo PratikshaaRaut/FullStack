@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up Form</title>
+</head>
+<body bgcolor="darkblue" text="lightyellow">
+
+    <table width="50%" align="center" cellpadding="10">
+        <tr bgcolor="orange">
+            <td colspan="2"><b>Sign Up</b></td>
+        </tr>
+        <form>
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" name="first_name" placeholder="Enter First Name"></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" name="last_name" placeholder="Enter Last Name"></td>
+            </tr>
+            <tr>
+                <td>Date of Birth</td>
+                <td>
+                    <select name="day">
+                        <option>Date</option>
+                        <!-- Dates 1-31 -->
+                        <option>1</option><option>2</option><option>3</option>
+                        <!-- Add more as needed -->
+                    </select>
+                    <select name="month">
+                        <option>Month</option>
+                        <option>January</option>
+                        <option>February</option>
+                        <!-- Add more as needed -->
+                    </select>
+                    <select name="year">
+                        <option>Year</option>
+                        <option>2000</option>
+                        <option>2001</option>
+                        <option>2002</option>
+                        <!-- Add more as needed -->
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                </td>
+            </tr>
+            <tr>
+                <td>Country</td>
+                <td>
+                    <select name="country">
+                        <option>Country</option>
+                        <option>India</option>
+                        <option>USA</option>
+                        <option>UK</option>
+                        <!-- Add more as needed -->
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>E-mail</td>
+                <td><input type="email" name="email" placeholder="Enter E-mail"></td>
+            </tr>
+            <tr>
+                <td>Phone</td>
+                <td><input type="tel" name="phone" placeholder="Enter Phone"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td>Confirm Password</td>
+                <td><input type="password" name="confirm_password"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" name="terms"> I Agree to the Terms of use
+                </td>
+            </tr>
+            <tr bgcolor="orange">
+                <td align="center">
+                    <input type="submit" value="Submit">
+                </td>
+                <td align="center">
+                    <input type="reset" value="Cancel">
+                </td>
+            </tr>
+        </form>
+    </table>
+
+</body>
+</html>
