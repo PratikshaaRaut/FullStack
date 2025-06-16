@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color:bisque;
+}
+
+header {
+  background-color:bisque;
+  color: rgb(209, 136, 84);
+  padding: 8px;
+  text-align: center;
+}
+ 
+nav {
+  background-color:rgb(209, 136, 84);
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: rgb(7, 7, 7);
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+h2{
+    text-color:rgb(250,138,70);
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: rgb(209, 136, 84);
+  color: white;
+  text-align: center;
+  padding: 1px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+.gallery-grid img {
+  width: 100%;
+  height: auto;
+}
+
+pbody {
+    font-family: Arial, sans-serif;
+    background-color: #ebe3e3;
+    padding: 20px;
+}
+
+.tour-card {
+    width: 350px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+}
+
+.best-seller {
+    background-color: orange;
+    color: white;
+    padding: 5px 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.tour-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.tour-info {
+    padding: 15px;
+}
+
+.tour-duration {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 5
