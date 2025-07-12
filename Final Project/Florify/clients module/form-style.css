@@ -1,0 +1,20 @@
+.form-bg {
+  background: linear-gradient(to right, #f8bbd0, #ffe6f0);
+  min-height: 100px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 60px;
+  font-family: Arial, sans-serif;
+}
+
+.form-box {
+  max-width: 500px;
+  width: 100%;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
+
+
